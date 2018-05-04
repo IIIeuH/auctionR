@@ -1,0 +1,84 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.top-line{
+  height: 4em;
+  background-color: #2c3335;
+}
+
+/*style button*/
+.button{
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #f7e50b;
+  text-align: center;
+  color: black;
+  border-radius: 7px;
+}
+/*style button*/
+
+
+/*LOGO*/
+.logo{
+  font-size: 24px;
+  color: #e4e4e4;
+}
+/*LOGO*/
+
+/*style login*/
+.wrap-login input::placeholder{
+  font-weight: bold;
+  font-size: 15px;
+  color: #616161;
+}
+.wrap-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap-login input{
+  width: 275px;
+  height: 50px;
+  margin-top: 20px;
+}
+.box-modal{
+  background: #2c3335;
+  width: auto;
+}
+.wrap-login .button{
+  margin-bottom: 20px;
+  color: #2c3335;
+  border-radius: 7px;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 25px;
+  padding: 17px;
+}
+.wrap-login .button:hover{
+  background-color: yellow;
+}
+.up-pwd a{
+  text-decoration: none;
+  color: white;
+}
+.up-pwd a:hover{
+  text-decoration: underline;
+}
+.box-modal_close{
+  font-size: 20px;
+}
+.wrap-login p{
+  color: white;
+  width:100%;
+  text-align:justify;
+}
+.wrap-login p{
+  width: 280px;
+}
+/*end style login*/

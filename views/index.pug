@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  section
+    .top-line.d-flex.align-items-center
+      .container
+        .row
+          .logo.mr-auto.p-2 LOGO
+          .button.login.mr-2 ВХОД
+          .button.registration  РЕГИСТРАЦИЯ
+  include auth/login
+  include auth/registration

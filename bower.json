@@ -1,0 +1,26 @@
+{
+  "name": "auction",
+  "description": "auction",
+  "main": "app.js",
+  "authors": [
+    "IIIeuH <shein.ev@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "auction"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "snackbar": "^0.1.10",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "moment": "^2.22.1"
+  }
+}
